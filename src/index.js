@@ -1,6 +1,7 @@
-// referring to Activity 1 -> src -> index.js
+// referring to Activity 24 -> src -> index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
