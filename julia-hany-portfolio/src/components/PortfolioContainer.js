@@ -1,10 +1,11 @@
 // Referring to Activity 24 -> src -> components -> PortfolioContainer.js
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
 import About from './pages/About.js';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Header from './Header';
+import Footer from './Footer.js'
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -26,8 +27,9 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 }

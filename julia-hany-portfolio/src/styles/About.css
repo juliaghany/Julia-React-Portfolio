@@ -1,0 +1,8 @@
+.my-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: solid rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+}

@@ -1,5 +1,6 @@
 // Referring to Activity 24 -> src -> components -> NavTabs.js
 import React from 'react';
+import '../styles/Navbar.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
