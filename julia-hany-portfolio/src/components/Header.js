@@ -9,7 +9,8 @@ const styles = {
     },
     headingStyle: {
         fontSize: '50px',
-        color: 'white'
+        color: 'white',
+        textAlign: 'center'
     },
 }
 

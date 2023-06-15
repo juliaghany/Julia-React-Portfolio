@@ -7,10 +7,11 @@ import jateImage from '../images/julia-text-editor.herokuapp.com_.png'
 import quizImage from '../images/intro-page.png';
 import '../../styles/Portfolio.css'
 
-const cardStyle = {
-    width: '20rem',
-};
-
+const styles = {
+    cardStyle: {
+        width: '20rem',
+    }
+}
 const projects = [
     {
         name: 'BirthdayBuddy',
@@ -56,26 +57,28 @@ const projects = [
 
 export default function Portfolio() {
     return (
-        <div className="container" style={{ paddingTop: '20px'}}>
+        <div className="container" style={{ paddingTop: '20px' }}>
             <div className="row">
                 {projects.map((project, index) => (
-                    <div className="col-md-4 d-flex" key={index}>
-                        <div className="card" style={cardStyle}>
+                    <div className="col-md-4 d-flex mb-5" key={index}>
+                        <div className="card" style={styles.cardStyle}>
                             <img
                                 className="card-img-top"
                                 src={project.image}
                                 alt="Project"
                                 style={{ objectFit: 'cover', height: '200px' }}
                             />
-                            <div className="card-body d-flex flex-column">
+                            <div className='card-body d-flex flex-column'>
                                 <h5 className="card-title">{project.name}</h5>
-                                {/* <p className="card-text">{project.description}</p> */}
-                                <a href={project.link1} className="btn btn-primary mt-auto" target='_blank' style={{ backgroundColor: 'purple'}}>
-                                    View GitHub repository
-                                </a>
-                                <a href={project.link2} className="btn btn-primary mt-auto" target='_blank' style={{ backgroundColor: 'purple'}}>
-                                    View Live Website
-                                </a>
+                                <div className='d-gid gap-2'>
+                                    {/* <p className="card-text">{project.description}</p> */}
+                                    <a href={project.link1} className="btn btn-primary mt-2" target='_blank'>
+                                        View GitHub repository
+                                    </a>
+                                    <a href={project.link2} className="btn btn-primary mt-2" target='_blank'>
+                                        View Live Website
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -84,44 +87,3 @@ export default function Portfolio() {
         </div>
     );
 }
-
-
-
-
-
-
-
-
-     
-
-
-        // <div className="container">
-        //     <div className="card" style={cardStyle}>
-        //         <img
-        //             className="card-img-top"
-        //             src={birthdayBuddyImage}
-        //             alt="Confetti"
-        //         />
-        //         <div className="card-body">
-        //             <h5 className="card-title">Name: {birthdayProject.name}</h5>
-        //             <p className="card-text">Description: {birthdayProject.description}</p>
-        //             <a href={birthdayProject.link} className="btn btn-primary">
-        //                 Click Here to view GitHub repository
-        //             </a>
-        //         </div>
-        //     </div>
-        //     <div className="card" style={cardStyle}>
-        //         <img
-        //             className="card-img-top"
-        //             src={popcornProjectImage}
-        //             alt="Confetti"
-        //         />
-        //         <div className="card-body">
-        //             <h5 className="card-title">Name: {popcornPortal.name}</h5>
-        //             <p className="card-text">Description: {popcornPortal.description}</p>
-        //             <a href={popcornPortal.link} className="btn btn-primary">
-        //                 Click Here to view GitHub repository
-        //             </a>
-        //         </div>
-        //     </div>
-        // </div>

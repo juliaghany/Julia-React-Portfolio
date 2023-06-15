@@ -1,11 +1,11 @@
 .nav-link {
-    color: white
+    color: white !important;
 }
 
-.nav-link:hover {
-    color: white
+.nav-item:hover {
+    color: white !important;
 }
 
 .nav-link.active {
-    color: black
+    color: black !important;
 }

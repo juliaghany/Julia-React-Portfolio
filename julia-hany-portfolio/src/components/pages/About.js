@@ -5,17 +5,17 @@ import myImage from '../images/my-image.jpg'
 
 const styles = {
     bodyStyle: {
-        // backgroundColor: 'black',
+        backgroundColor: 'black',
         minHeight: '100vh'
     },
     headingStyle: {
-        // color: 'white',
+        color: 'white',
         textAlign: 'center',
         fontSize: '40px',
         paddingBottom: '15px'
     },
     contentStyle: {
-        // color: 'white',
+        color: 'white',
         fontSize: '20px',
         padding: '20px'
     }
