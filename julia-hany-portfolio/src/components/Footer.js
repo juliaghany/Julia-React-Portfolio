@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaInstagram, Fa } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa'
 
 const styles = {
     background: {
@@ -28,6 +28,7 @@ const Footer = () => {
                 <a href='https://www.instagram.com/heyimjules/' title='View my Instagram' target='_blank'>
                     <FaInstagram style={styles.icons} />
                 </a>
+                {/* added email icon so user can email me */}
                 <a href='mailto:juliaghany@msn.com' title='Email me' target='_blank'>
                     <FaEnvelope style={styles.icons} />
                 </a>
