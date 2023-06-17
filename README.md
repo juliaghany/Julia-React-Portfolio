@@ -2,8 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-URL to functional, deployed action: 
+URL to functional, deployed action: https://juliaghany.github.io/Julia-React-Portfolio/#about
 
+![Alt text](julia-hany-portfolio/src/assets/images/about-me-page.png)
+![Alt text](julia-hany-portfolio/src/assets/images/portfolio-page.png)
 
 
 ## Description 
