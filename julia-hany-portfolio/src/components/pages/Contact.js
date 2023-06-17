@@ -20,7 +20,7 @@ const styles = {
         backgroundImage: `url(${starImage})`,
         width: '1000px',
         padding: '50px',
-        border: '1px solid white',
+        border: 'solid white',
         borderRadius: '20px',
         margin: '5px'
     },
