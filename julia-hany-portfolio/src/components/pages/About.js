@@ -1,22 +1,19 @@
 // Referring to Activity 24 -> src -> components -> pages -> About.js
 import React from 'react';
 import '../../styles/About.css'
-import myImage from '../images/my-image.jpg'
+import myImage from '../../assets/images/my-image.jpg'
 
 const styles = {
     bodyStyle: {
         backgroundColor: 'black',
-        minHeight: '100vh'
-    },
-    headingStyle: {
-        color: 'white',
-        textAlign: 'center',
-        fontSize: '40px',
-        paddingBottom: '15px'
+        minHeight: '100vh',
     },
     contentStyle: {
-        color: 'white',
+        backgroundColor: 'white',
+        color: 'black',
         fontSize: '20px',
+        margin: '20px',
+        borderRadius: '20px',
         padding: '20px'
     }
 }
@@ -24,14 +21,14 @@ const styles = {
 export default function About() {
     return (
         <div style={styles.bodyStyle}>
-            <h1 style={styles.headingStyle}>About Me</h1>
+            {/* <h1 style={styles.headingStyle}>About Me</h1> */}
             <img className='my-image' src={myImage} alt='My image'/>
             <p style={styles.contentStyle}>
                 Hello, I'm Julia Hany, an aspiring full-stack web developer with a passion for creating engaging and dynamic online experiences. 
                 I have nearly completed a comprehensive web development course through Columbia Engineering Boot Camp where I've gained a solid 
                 foundation in front-end and back-end technologies. Prior to that, I gained experience as a waitress, honing my communication
                 and time management skills in a fast-paced environment. Working closely with diverse guests, I developed exceptional interpersonal 
-                skills, effectively listening to their needs and providing top-notch service. This experience taught me the importance of clear and 
+                skills, effectively listening to their needs and providing great service. This experience taught me the importance of clear and 
                 concise communication, adaptability, and working collaboratively as part of a team.<br/><br/>
 
                 I have hands-on experience with HTML, CSS, JavaScript, and I have worked with popular frameworks such as React and Node.js.
