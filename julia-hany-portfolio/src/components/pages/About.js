@@ -3,6 +3,7 @@ import React from 'react';
 import '../../styles/About.css'
 import myImage from '../../assets/images/my-image.jpg'
 
+// additional styling
 const styles = {
     bodyStyle: {
         backgroundColor: 'black',
@@ -21,7 +22,6 @@ const styles = {
 export default function About() {
     return (
         <div style={styles.bodyStyle}>
-            {/* <h1 style={styles.headingStyle}>About Me</h1> */}
             <img className='my-image' src={myImage} alt='My image'/>
             <p style={styles.contentStyle}>
                 Hello, I'm Julia Hany, an aspiring full-stack web developer with a passion for creating engaging and dynamic online experiences. 

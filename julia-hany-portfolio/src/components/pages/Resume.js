@@ -1,5 +1,6 @@
 import React from 'react';
 
+// styling for Resume page
 const styles = {
     containerStyle: {
         backgroundColor: 'black',
@@ -53,6 +54,7 @@ function Resume() {
                 </ul>
             </div>
             <div style={styles.buttonStyle}>
+                {/* link to view and download my resume */}
                 <a href='https://drive.google.com/file/d/1LJ1nFOpG5h_wmlFMemtXnshkZj7st6zf/view?usp=sharing' target='_blank' rel="nonreferrer" className="btn btn-primary">Click to view Resume</a>
             </div>
         </div>

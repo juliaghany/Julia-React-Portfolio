@@ -1,5 +1,6 @@
 // Referring to Activity 16 -> src -> components -> form
 import React, { useState } from 'react';
+// import validateEmail function 
 import { validateEmail } from '../../utils/helpers';
 import starImage from '../../assets/images/stars.jpg';
 
@@ -35,6 +36,7 @@ function Contact() {
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
+    // handles input change
     const handleInputChange = (e) => {
         const { target } = e;
         const inputType = target.name;
@@ -48,7 +50,7 @@ function Contact() {
             setMessage(inputValue)
         }
     }
-
+    // handles onBLur, when user changes focus on webpage without providing a valid email address the error message will be displayed
     const handleEmailBlur = () => {
         if (email && !validateEmail(email)) {
             setErrorMessage('Your email is invalid')
@@ -56,7 +58,7 @@ function Contact() {
             setErrorMessage('');
         }
     }
-
+    // handles onBLur, when user changes focus on webpage without providing any content in the message input box the error message will be displayed
     const handleMessageBlur = () => {
         if (!message.trim()) {
             setErrorMessage(
@@ -97,7 +99,7 @@ function Contact() {
 
             <form className='container' style={styles.form}>
                 <h1 style={styles.textStyle}>Contact Me</h1>
-                <div className="mb-3" style={{ paddingTop: '10px'}}>
+                <div className="mb-3" style={{ paddingTop: '10px' }}>
                     <label htmlFor="name" className="form-label" style={styles.textStyle}>Name</label>
                     <input
                         value={name}
@@ -135,7 +137,9 @@ function Contact() {
                         placeholder='Enter your message'
                     ></textarea>
                 </div>
+                {/* render error message if there is one */}
                 {errorMessage && (
+                    // container for the error message
                     <div style={styles.errorContainer}>
                         <p style={styles.textStyle} className='error-text'>{errorMessage}</p>
                     </div>
@@ -143,9 +147,9 @@ function Contact() {
                 <button type='button' className='btn btn-primary' onClick={handleFormSubmit}>
                     Submit
                 </button>
-                
+
             </form>
-      
+
         </div>
     );
 }

@@ -2,13 +2,16 @@
 import React from 'react';
 import '../styles/Navbar.css';
 
+// renders navigation tabs for different pages
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <ul className='nav nav-tabs'>
             <li className='nav-item'>
                 <a
                     href='#about'
+                    // on click, handlePageChange() will be called to navigate user to the corresponding page
                     onClick={() => handlePageChange('About')}
+                    // if current page is 'About', navigation tab will be highlighted, otherwise it will not be highlighted 
                     className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
                     About Me

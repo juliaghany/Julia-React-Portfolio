@@ -1,6 +1,8 @@
 import React from 'react';
+// import motion for image animation 
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
+// import images for projects
 import birthdayBuddyImage from '../../assets/images/Birthday-Confetti-Unicorn-768x584.jpg'
 import popcornProjectImage from '../../assets/images/Popcorn Portal Logo.png';
 import techBlogImage from '../../assets/images/tech-blog.png';
