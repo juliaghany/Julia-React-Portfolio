@@ -1,10 +1,12 @@
 // Referring to Activity 22 -> src -> components -> Header.js
 import React from 'react';
-import NavTabs from './NavTabs'
+import NavTabs from './NavTabs';
+import starImage from '../assets/images/stars.jpg'
 
 const styles = {
     headerStyle: {
         backgroundColor: 'black',
+        backgroundImage: `url(${starImage})`,
         padding: '30px'
     },
     headingStyle: {
