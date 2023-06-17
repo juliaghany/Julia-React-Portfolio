@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Julia-React-Portfolio/static/css/main.7f85220d.css",
+    "main.js": "/Julia-React-Portfolio/static/js/main.d43367c0.js",
+    "static/media/Popcorn Portal Logo.png": "/Julia-React-Portfolio/static/media/Popcorn Portal Logo.d7b8f151af6b0b9ed4ac.png",
+    "static/media/weather-dashboard-screenshot.png": "/Julia-React-Portfolio/static/media/weather-dashboard-screenshot.ad593845b35c2147c37b.png",
+    "static/media/stars.jpg": "/Julia-React-Portfolio/static/media/stars.e0ca6970cfe35660767b.jpg",
+    "static/media/my-image.jpg": "/Julia-React-Portfolio/static/media/my-image.b878024333e3817f57c2.jpg",
+    "static/media/Birthday-Confetti-Unicorn-768x584.jpg": "/Julia-React-Portfolio/static/media/Birthday-Confetti-Unicorn-768x584.6d9da4de7a7284b20a09.jpg",
+    "static/media/tech-blog.png": "/Julia-React-Portfolio/static/media/tech-blog.b2c612df5a17e5b8fb51.png",
+    "static/media/intro-page.png": "/Julia-React-Portfolio/static/media/intro-page.5ac1bc5ee4d7b6a17b9c.png",
+    "static/media/julia-text-editor.herokuapp.com_.png": "/Julia-React-Portfolio/static/media/julia-text-editor.herokuapp.com_.8ff497a113cb0fd51f15.png",
+    "index.html": "/Julia-React-Portfolio/index.html",
+    "main.7f85220d.css.map": "/Julia-React-Portfolio/static/css/main.7f85220d.css.map",
+    "main.d43367c0.js.map": "/Julia-React-Portfolio/static/js/main.d43367c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f85220d.css",
+    "static/js/main.d43367c0.js"
+  ]
+}
