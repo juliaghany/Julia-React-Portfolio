@@ -15,37 +15,44 @@ const projects = [
         name: 'BirthdayBuddy',
         link1: 'https://github.com/juliaghany/BirthdayBuddy',
         link2: 'https://birthday-buddy.herokuapp.com/login',
-        image: birthdayBuddyImage
+        image: birthdayBuddyImage,
+        alt: 'Birthday confetti (purple, pink, teal, gold) with white background',
     },
     {
         name: 'Popcorn Portal',
         link1: 'https://github.com/juliaghany/Popcorn-Portal',
         link2: 'https://juliaghany.github.io/Popcorn-Portal/',
-        image: popcornProjectImage
+        image: popcornProjectImage,
+        alt: 'Buttery popcorn in movie theater bucket with red and white stripes, logo on the bucket that reads "Popcorn Portal"',
     },
     {
         name: 'Tech Blog',
         link1: 'https://github.com/juliaghany/Tech-Blog',
         link2: 'https://julia-hany-tech-blog.herokuapp.com/',
-        image: techBlogImage
+        image: techBlogImage,
+        alt: 'Blog website that has a home, dashboard, and login tabs. Shows title of blog, username of who posted it, date created, and blog content',
+
     },
     {
         name: 'Weather Dashboard',
         link1: 'https://github.com/juliaghany/Weather-Dashboard',
         link2: 'https://juliaghany.github.io/Weather-Dashboard/',
-        image: weatherDashboardImage
+        image: weatherDashboardImage,
+        alt: 'Weather dashboard that shows search bar, once a city is searched it shows the temperature, wind speed, and humidity for next five days for that city',
     },
     {
         name: 'Progressive Web Application',
         link1: 'https://github.com/juliaghany/Progressive-Web-Application',
         link2: 'https://julia-text-editor.herokuapp.com/',
-        image: jateImage
+        image: jateImage,
+        alt: 'Text editor with numbers along the side, install button at the top',
     },
     {
         name: 'Timed Code Quiz',
         link1: 'https://github.com/juliaghany/Timed-Code-Quiz',
         link2: 'https://juliaghany.github.io/Timed-Code-Quiz/',
-        image: quizImage
+        image: quizImage,
+        alt: 'Introduction page to a coding quiz challenge, start quiz button at the bottom',
     }
 ]
 // display each project 
@@ -63,7 +70,7 @@ export default function Portfolio() {
                             <img
                                 className="portfolio-image"
                                 src={project.image}
-                                alt="Project"
+                                alt={project.alt}
                             />
                             <div className="portfolio-overlay">
                                 <a className="portfolio-name" href={project.link2} target='_blank'>{project.name}</a>
