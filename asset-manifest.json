@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Julia-React-Portfolio/static/css/main.7f85220d.css",
-    "main.js": "/Julia-React-Portfolio/static/js/main.d43367c0.js",
+    "main.js": "/Julia-React-Portfolio/static/js/main.73de2b60.js",
     "static/media/Popcorn Portal Logo.png": "/Julia-React-Portfolio/static/media/Popcorn Portal Logo.d7b8f151af6b0b9ed4ac.png",
     "static/media/weather-dashboard-screenshot.png": "/Julia-React-Portfolio/static/media/weather-dashboard-screenshot.ad593845b35c2147c37b.png",
     "static/media/stars.jpg": "/Julia-React-Portfolio/static/media/stars.e0ca6970cfe35660767b.jpg",
@@ -12,10 +12,10 @@
     "static/media/julia-text-editor.herokuapp.com_.png": "/Julia-React-Portfolio/static/media/julia-text-editor.herokuapp.com_.8ff497a113cb0fd51f15.png",
     "index.html": "/Julia-React-Portfolio/index.html",
     "main.7f85220d.css.map": "/Julia-React-Portfolio/static/css/main.7f85220d.css.map",
-    "main.d43367c0.js.map": "/Julia-React-Portfolio/static/js/main.d43367c0.js.map"
+    "main.73de2b60.js.map": "/Julia-React-Portfolio/static/js/main.73de2b60.js.map"
   },
   "entrypoints": [
     "static/css/main.7f85220d.css",
-    "static/js/main.d43367c0.js"
+    "static/js/main.73de2b60.js"
   ]
 }
