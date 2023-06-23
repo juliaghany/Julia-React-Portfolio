@@ -2,7 +2,6 @@
   "name": "julia-hany-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juliaghany.github.io/Julia-React-Portfolio",
   "dependencies": {
     "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
     "@testing-library/jest-dom": "^5.16.5",
