@@ -38,7 +38,7 @@ export default function About() {
                 and create personalized movie lists.<br/><br/>
 
                 Outside of coding, you can find me exploring nature on hiking trails, expressing my creativity through various forms of art, 
-                or playing my favorite instruments. I believe these interests contribute to my ability to think outside the box and apporach
+                or playing my favorite instruments. I believe these interests contribute to my ability to think outside the box and approach
                 coding challenges with a fresh perspective.
                 Looking ahead, my goal is to build impactful web applications that enhance user experiences and contribute to the ever-evolving 
                 digital world. I'm eager to expand my knowledge, learn new technologies, and collaborate with like-minded individuals in the industry.
