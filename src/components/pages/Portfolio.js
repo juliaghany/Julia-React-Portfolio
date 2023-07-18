@@ -9,6 +9,7 @@ import techBlogImage from '../../assets/images/tech-blog.png';
 import weatherDashboardImage from '../../assets/images/weather-dashboard-screenshot.png';
 import jateImage from '../../assets/images/julia-text-editor.herokuapp.com_.png'
 import quizImage from '../../assets/images/intro-page.png';
+import jamVault from '../../assets/images/jamvault.png'
 import '../../styles/Portfolio.css'
 
 // create array of projects to map through
@@ -28,6 +29,13 @@ const projects = [
         alt: 'Buttery popcorn in movie theater bucket with red and white stripes, logo on the bucket that reads "Popcorn Portal"',
     },
     {
+        name: 'JamVault',
+        link1: 'https://github.com/juliaghany/JamVault',
+        link2: 'https://jamvault-3a4f37943c6d.herokuapp.com/',
+        image: jamVault,
+        alt: 'Pink, purple, orange header and footer. JamVault as title, links in navigation bar read The Vault, Timeline, and Login or Logout',
+    },
+    {
         name: 'Tech Blog',
         link1: 'https://github.com/juliaghany/Tech-Blog',
         link2: 'https://julia-hany-tech-blog.herokuapp.com/',
@@ -41,13 +49,6 @@ const projects = [
         link2: 'https://juliaghany.github.io/Weather-Dashboard/',
         image: weatherDashboardImage,
         alt: 'Weather dashboard that shows search bar, once a city is searched it shows the temperature, wind speed, and humidity for next five days for that city',
-    },
-    {
-        name: 'Progressive Web Application',
-        link1: 'https://github.com/juliaghany/Progressive-Web-Application',
-        link2: 'https://julia-text-editor.herokuapp.com/',
-        image: jateImage,
-        alt: 'Text editor with numbers along the side, install button at the top',
     },
     {
         name: 'Timed Code Quiz',

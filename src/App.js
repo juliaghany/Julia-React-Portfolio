@@ -1,4 +1,4 @@
-// Referring to Activity 24 -> src -> App.js
+// Referring to Module 22 -> Activity 24 -> client -> src -> App.js
 import React, { useState } from 'react';
 import PortfolioContainer from './components/PortfolioContainer'
 
