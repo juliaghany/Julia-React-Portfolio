@@ -4,8 +4,8 @@
 
 URL to functional, deployed action: https://juliaghany.github.io/Julia-React-Portfolio/#about
 
-![Alt text](julia-hany-portfolio/src/assets/images/about-me-page.png)
-![Alt text](julia-hany-portfolio/src/assets/images/portfolio-page.png)
+![Alt text](/src/assets/images/about-me-page.png)
+![Alt text](/src/assets/images/portfolio-page.png)
 
 
 ## Description 
