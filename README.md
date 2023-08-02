@@ -2,8 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-URL to functional, deployed action: https://juliaghany.github.io/Julia-React-Portfolio/#about
-
+URL to functional, deployed action: https://juliahanyportfolio.vercel.app/#about
 ![Alt text](/src/assets/images/about-me-page.png)
 ![Alt text](/src/assets/images/portfolio-page.png)
 
