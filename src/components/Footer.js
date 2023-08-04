@@ -12,6 +12,13 @@ const styles = {
     icons: {
         fontSize: '40px',
         margin: '10px'
+    },
+    contentContainer: {
+        textAlign: 'center',
+        fontSize: '18px',
+        paddingTop: '5px',
+        color: 'white',
+        paddingBottom: '10px'
     }
 }
 
@@ -28,10 +35,13 @@ const Footer = () => {
                 <a href='https://www.instagram.com/heyimjules/' title='View my Instagram' target='_blank'>
                     <FaInstagram style={styles.icons} />
                 </a>
-                {/* added email icon so user can email me */}
+                {/* added email icon so user can email me
                 <a href='mailto:juliaghany@msn.com' title='Email me' target='_blank'>
                     <FaEnvelope style={styles.icons} />
-                </a>
+                </a> */}
+            </div>
+            <div style={styles.contentContainer}>
+                Email me: <a href='mailto:juliaghany@msn.com'>juliaghany@msn.com</a>
             </div>
         </footer>
     );
