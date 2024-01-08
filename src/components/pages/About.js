@@ -1,7 +1,7 @@
 // Referring to Activity 24 -> src -> components -> pages -> About.js
 import React from 'react';
 import '../../styles/About.css'
-import myImage from '../../assets/images/my-image.jpg'
+import myImage from '../../assets/images/my-picture.jpg'
 
 // additional styling
 const styles = {
